@@ -15,20 +15,21 @@ The list of characters was acquired by scraping the the Witcher Wiki website.  A
 
 ##  B3. Justification:
 
-![image](https://user-images.githubusercontent.com/46407407/186335750-532e2278-8033-492a-bd38-78cea2d164f2.png)
+The book text was parsed in blocks of 5 sentences.  Two characters are considered to be associated if both names are referenced in a block.  These character to character associations were summed.  Refer to the table below:
+![image](https://user-images.githubusercontent.com/46407407/186470482-7a149a9b-7d48-4bb8-95ab-1c59b4d7cac0.png)
 
 ## Code and Resources Used
 **Python Version:  ** Python version: 3.8.5
-**Packages:** pandas, numpy, senenium, webdriver_manager, sweetviz, graphvis, matplotlib
+**Packages:** pandas, numpy, senenium, webdriver_manager, spacy, sweetviz, graphvis, matplotlib
 ## EDA
 ![image](https://user-images.githubusercontent.com/46407407/186262898-f65eec68-fbef-4917-b550-f8e8e90cbd8f.png)
 
 ![image](https://user-images.githubusercontent.com/46407407/186265480-9c2b2590-7b69-4fce-b998-79a7f99c0498.png)
 
-Data was scrubbed
-
 ## Summary
-Some character associations can be viewed in the following chart:
+The Selenium package was used to scrape a list of characters from the the Wiki Witcher website.
+Scrapy was used used to identify the associations in book text. 
+Some character associations can be viewed in the following table:
 ![image](https://user-images.githubusercontent.com/46407407/186470482-7a149a9b-7d48-4bb8-95ab-1c59b4d7cac0.png)
 
 Charting character associations allows us to visualize some association groupings:
