@@ -36,8 +36,8 @@ Charting character associations allows us to visualize some association grouping
 
 
 ##  Limitations
-  ** The character to character associations were made based on occurrence of a small window which may limit accuracy.  
-  ** Associations are not categorized as positive and negative.
+  * The character to character associations were made based on occurrence of a small window which may limit accuracy.  
+  * Associations are not categorized as positive and negative.
 
 ## Recommendations
 Further analysis is required to determine more in-depth character associations. For example, the identified character associations may be either collaborative or adversarial in nature. 
@@ -45,12 +45,13 @@ Further analysis is required to determine more in-depth character associations. 
 ## Sources
 1. The Official Wticher 
 https://www.youtube.com/watch?v=fAHkJ_Dhr50
-2. 
+
+
+2. Witcher Fandom
 https://witcher.fandom.com/wiki/Category:Characters_in_the_stories
 
-3. https://selenium-python.readthedocs.io/locating-elements.html
+3. Baiju Muthukadan (2018). Selenium documentation.
+https://selenium-python.readthedocs.io/locating-elements.html
 
-4. https://selenium-python.readthedocs.io/locating-elements.html
-
-5. dworschak / Witcher(2014). JonStryker and JonStryker text version of Witcher books
+4. Dworschak / Witcher(2014). JonStryker and JonStryker text version of Witcher books
 https://github.com/dworschak/Witcher/tree/master/RESSOURCES/_books/text
